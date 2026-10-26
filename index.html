@@ -4,26 +4,87 @@
     <title>Christopher Craig | Portfolio</title>
     <meta charset="UTF-8">
     <style>
-     body { background: #f6f6f6; font-family: Arial, sans-serif; }
-     h1 { color: #2d76ee; }
+      body {
+        background: #f6f6f6;
+        font-family: Arial, sans-serif;
+      }
+      .main-container {
+        max-width: 600px;
+        margin: 30px auto;
+        background: #fff;
+        border-radius: 10px;
+        padding: 2em 2.5em;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+      }
+      h1 {
+        color: #2d76ee;
+        text-align: center;
+        margin-bottom: 0.2em;
+      }
+      p.subtitle {
+        text-align: center;
+        font-size: 1.1em;
+        color: #424242;
+        margin-top: 0;
+      }
+      h2 {
+        margin-top: 2em;
+        color: #254061;
+        border-bottom: 1px solid #eaeaea;
+        padding-bottom: 0.2em;
+      }
+      ul {
+        padding-left: 0;
+        list-style-type: none;
+      }
+      ul li {
+        margin-bottom: 1em;
+        background: #f9fbfe;
+        border-radius: 6px;
+        padding: 1em;
+        box-shadow: 0 1px 4px rgba(44,90,255,0.05);
+      }
+      ul li strong {
+        color: #2d76ee;
+        font-size: 1.11em;
+      }
+      ul li a {
+        color: #2d76ee;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 0.5em;
+        transition: text-decoration 0.2s;
+      }
+      ul li a:hover {
+        text-decoration: underline;
+      }
+      .about-me {
+        margin-top: 2em;
+        color: #3a3a3a;
+        line-height: 1.7;
+      }
     </style>
   </head>
   <body>
-    <h1>Christopher Craig</h1>
-    <p>Junior Software Engineer</p>
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <strong>movies.api</strong>: A RESTful API for managing a movie collection.
-        [<a href="https://github.com/christophercraig29-ui/movies.api">GitHub Repo</a>]
-      </li>
-      <li>
-    <strong>COVID-19 Data Analysis</strong>: Analyzed worldwide COVID-19 data with SQL to reveal weekly trends and country comparisons.
-    [<a href="https://github.com/christophercraig29-ui/covid-data-analysis">GitHub Repo</a>]
-  </li>
-      <!-- Add more project entries here -->
-    </ul>
-    <h2>About Me</h2>
-    <p>Hi, I’m Christopher—a college student working toward my Associate of Applied Science in AI Software Engineering. I’m passionate about AI and love exploring how intelligent technology can shape gaming experiences. Always ready to learn and try new things in tech!</p>
+    <div class="main-container">
+      <h1>Christopher Craig</h1>
+      <p class="subtitle">Junior Software Engineer</p>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>movies.api</strong>: A RESTful API for managing a movie collection.
+          <a href="https://github.com/christophercraig29-ui/movies.api" target="_blank">GitHub Repo</a>
+        </li>
+        <li>
+          <strong>COVID-19 Data Analysis</strong>: Analyzed worldwide COVID-19 data with SQL to reveal weekly trends and country comparisons.
+          <a href="https://github.com/christophercraig29-ui/covid-data-analysis" target="_blank">GitHub Repo</a>
+        </li>
+        <!-- Add more project entries here -->
+      </ul>
+      <h2>About Me</h2>
+      <p class="about-me">
+        Hi, I’m Christopher—a college student working toward my Associate of Applied Science in AI Software Engineering. I’m passionate about AI and love exploring how intelligent technology can shape gaming experiences. Always ready to learn and try new things in tech!
+      </p>
+    </div>
   </body>
 </html>
